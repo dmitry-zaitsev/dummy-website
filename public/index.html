@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dummy Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to the Dummy Website</h1>
+    <p>This is a dummy website running on localhost:3000</p>
+    <p class="test">This is a CSS class text</p>
+    <div data-testid="dataId">This is data-testid text</div>
+
+    <label for="item-select">Choose an item:</label>
+    <select id="item-select">
+      <option value="" disabled selected>Select an item</option>
+      <option value="Item A">Item A</option>
+      <option value="Item B">Item B</option>
+      <option value="Item C">Item C</option>
+    </select>
+    <div id="selected-item-container">
+      Selected: <span id="selected-item">None</span>
+    </div>
+    <script src="script.js"></script>
+    <script src="/maestro/maestro-web.js"></script>
+  </body>
+</html>
